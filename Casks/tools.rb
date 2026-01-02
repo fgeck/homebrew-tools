@@ -3,7 +3,7 @@ cask "tools" do
   name "tools"
   desc "A bookmark manager for your terminal commands"
   homepage "https://github.com/fgeck/tools"
-  version "0.0.1"
+  version "0.0.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "tools" do
     on_intel do
       url "https://github.com/fgeck/tools/releases/download/v#{version}/tools_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/fgeck/tools"
-      sha256 "9db109e6ddce04894befd85528a05a5e943589ccfc56c6c673e00f1ea2cba6ab"
+      sha256 "00a3e481b16d471d111c43c428242a94c0375b1702eaa52c6c12c877f80516e1"
     end
     on_arm do
       url "https://github.com/fgeck/tools/releases/download/v#{version}/tools_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/fgeck/tools"
-      sha256 "a1e4377d4468b059d16b387bee38a22ce57d6f200e726ea7993b9da428746f8d"
+      sha256 "895a3c005b60a7ba157a9fd477482aeae1b9322b1226b2b02a4ad34e7bd43e31"
     end
   end
 
@@ -28,12 +28,12 @@ cask "tools" do
     on_intel do
       url "https://github.com/fgeck/tools/releases/download/v#{version}/tools_#{version}_linux_amd64.tar.gz",
         verified: "github.com/fgeck/tools"
-      sha256 "f28fafc520fcb2d1beffe4eaeae290875f275ca5c93b1e3e6441cf1adda8633f"
+      sha256 "9593942a0b4af0f27a1648deb2c86473304ce287ca1f6573512e84d928ba055e"
     end
     on_arm do
       url "https://github.com/fgeck/tools/releases/download/v#{version}/tools_#{version}_linux_arm64.tar.gz",
         verified: "github.com/fgeck/tools"
-      sha256 "84e1307a3f302b02d3416d34a499e5facbe6cbcff3576ca3f3affa43ba7364f2"
+      sha256 "49797a9fa4cb10ee86efe2598bbbace4bbcf739e7277c67e8b3a5f4c83647999"
     end
   end
 
