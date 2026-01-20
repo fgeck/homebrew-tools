@@ -9,11 +9,13 @@ cask "us-with-german-umlauts" do
   desc "US keyboard layout with German umlauts on Option key"
   homepage "https://github.com/fgeck/us-with-german-umlauts"
 
-  keyboard_layout "U.S. with German Umlauts.keylayout"
+  artifact "US-with-German-Umlauts.bundle", target: "/Library/Keyboard Layouts/US-with-German-Umlauts.bundle"
 
   caveats <<~EOS
     After installation, enable the keyboard layout in:
     System Settings > Keyboard > Input Sources > Edit > + > Others
     Then select "U.S. with German Umlauts"
+
+    You may need to log out and back in for the keyboard layout to appear.
   EOS
 end
